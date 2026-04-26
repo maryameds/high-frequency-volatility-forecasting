@@ -67,6 +67,7 @@ Lower values indicate better performance.
 ** Noise-robust realized measures improve forecast accuracy
 
 * Overall pattern:
+
 ** GARCH → short-memory, shock-driven volatility
 
 ** HAR-type models → structured, persistent volatility

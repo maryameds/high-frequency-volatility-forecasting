@@ -285,7 +285,7 @@ for j in range(i+1, len(axes)):
 
 fig.suptitle(
     "Volatility Forecasts vs Realized Volatility\n"
-    "5-min Intraday Data | Test Period: Apr 6-10, 2026",
+    "5-min Intraday Data | Test Period: Apr 16-23, 2026",
     fontsize=13, fontweight="bold"
 )
 plt.tight_layout()

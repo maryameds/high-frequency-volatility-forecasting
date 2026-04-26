@@ -61,7 +61,9 @@ Lower values indicate better performance.
 * GARCH performs best for MSFT, SPY, and NVDA, suggesting that during the test window these assets exhibited fast-moving volatility dynamics where recent shocks dominate persistence.
 * HAR-RV outperforms for AAPL, indicating that its volatility process retains multi-horizon structure that benefits from daily/weekly aggregation.
 * HAR-RK performs best for GOOGL and GLD, implying that:
+
 Microstructure noise matters for these assets
+
 Noise-robust realized measures improve forecast accuracy
 
 * Overall pattern:

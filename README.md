@@ -58,10 +58,15 @@ Lower values indicate better performance.
 ## Key Findings
 
 * No single model dominates across all assets
-* GARCH performs better during sharp idiosyncratic volatility shocks (AAPL, GOOGL)
-* HAR models perform better when volatility is persistent and structured (MSFT, NVDA, GLD)
-* HAR-RK shows strongest performance for diversified assets (SPY, MSFT), suggesting the realized kernel's noise-correction adds value for portfolio-level volatility
-* GARCH(1,1) for AAPL showed alpha + beta = 1.00, indicating near-integrated volatility consistent with the high-volatility test period
+* GARCH performs best for MSFT, SPY, and NVDA, suggesting that during the test window these assets exhibited fast-moving volatility dynamics where recent shocks dominate persistence.
+* HAR-RV outperforms for AAPL, indicating that its volatility process retains multi-horizon structure that benefits from daily/weekly aggregation.
+* HAR-RK performs best for GOOGL and GLD, implying that:
+Microstructure noise matters for these assets
+Noise-robust realized measures improve forecast accuracy
+* Overall pattern:
+GARCH → short-memory, shock-driven volatility
+HAR-type models → structured, persistent volatility
+HAR-RK → added value when high-frequency noise is non-negligible
 
 ---
 

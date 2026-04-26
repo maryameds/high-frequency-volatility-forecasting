@@ -71,7 +71,7 @@ GARCH → short-memory, shock-driven volatility
 
 ** HAR-type models → structured, persistent volatility
 
-** HAR-RK → added value when high-frequency noise is non-negligible
+** HAR-RK → added value when high-frequency noise is non-negligible**
 
 ---
 

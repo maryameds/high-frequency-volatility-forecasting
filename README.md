@@ -67,11 +67,11 @@ Lower values indicate better performance.
 ** Noise-robust realized measures improve forecast accuracy
 
 * Overall pattern:
-GARCH → short-memory, shock-driven volatility
+** GARCH → short-memory, shock-driven volatility
 
 ** HAR-type models → structured, persistent volatility
 
-** HAR-RK → added value when high-frequency noise is non-negligible**
+** HAR-RK → added value when high-frequency noise is non-negligible
 
 ---
 

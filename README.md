@@ -14,7 +14,7 @@ How accurately do GARCH(1,1) and realized-volatility-based HAR models predict ne
 
 * Source: Yahoo Finance (via yfinance)
 * Frequency: 5-minute intraday bars
-* Period: Jan 14 – Apr 10, 2026 (~60 trading days)
+* Period: Jan 27 – Apr 23, 2026 (~60 trading days)
 * Assets: AAPL, MSFT, SPY, NVDA, GOOGL, GLD
 * Train/Test split: 33 days train / 5 days test
 
@@ -39,7 +39,7 @@ Lower values indicate better performance.
 
 ---
 
-## Results (April 6–10, 2026)
+## Results (April 19–23, 2026)
 
 | Asset | GARCH | HAR-RV | HAR-RK | Best   |
 |-------|-------|--------|--------|--------|
@@ -67,7 +67,7 @@ Lower values indicate better performance.
 
 ## Limitations
 
-* The test window (Apr 6–10, 2026) coincided with elevated market volatility driven by macroeconomic policy uncertainty, which may favor GARCH's shock-response mechanism
+* The test window (Apr 19–23, 2026) coincided with elevated market volatility driven by macroeconomic policy uncertainty, which may favor GARCH's shock-response mechanism
 * Yahoo Finance limits intraday data to the last 60 days — longer evaluation windows and tick-level estimation would require institutional data (WRDS, LOBSTER, TAQ)
 * A five-day test window is limited; results are indicative rather than conclusive
 * All assets are equities subject to correlated macro shocks — including FX or commodity futures would test performance across more distinct volatility processes

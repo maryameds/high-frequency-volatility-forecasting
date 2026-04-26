@@ -43,15 +43,15 @@ Lower values indicate better performance.
 
 | Asset | GARCH | HAR-RV | HAR-RK | Best   |
 |-------|-------|--------|--------|--------|
-| AAPL  | ✓     |        |        | GARCH  |
-| MSFT  |       |        | ✓      | HAR-RK |
-| SPY   |       |        | ✓      | HAR-RK |
-| NVDA  |       | ✓      |        | HAR-RV |
-| GOOGL | ✓     |        |        | GARCH  |
-| GLD   |       | ✓      |        | HAR-RV |
+| AAPL  |      |  ✓      |        | GARCH  |
+| MSFT  |  ✓     |        |       | HAR-RK |
+| SPY   |   ✓    |        |       | HAR-RK |
+| NVDA  |  ✓     |       |        | HAR-RV |
+| GOOGL |      |        |     ✓   | GARCH  |
+| GLD   |       |       |    ✓    | HAR-RV |
 
 **Win count (MSE and QLIKE consistent):**
-* GARCH: 2 | HAR-RV: 2 | HAR-RK: 2
+* GARCH: 3 | HAR-RV: 1 | HAR-RK: 2
 
 ---
 

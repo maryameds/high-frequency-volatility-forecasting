@@ -63,9 +63,12 @@ Lower values indicate better performance.
 * HAR-RK performs best for GOOGL and GLD, implying that:
 Microstructure noise matters for these assets
 Noise-robust realized measures improve forecast accuracy
+
 * Overall pattern:
 GARCH → short-memory, shock-driven volatility
+
 HAR-type models → structured, persistent volatility
+
 HAR-RK → added value when high-frequency noise is non-negligible
 
 ---
